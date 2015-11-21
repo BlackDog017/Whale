@@ -7,7 +7,7 @@ class MyThread extends Thread{
         this.name = name;
     }
     public void run(){
-        System.out.println(name+"正在运行");//重写run方法
+        System.out.println(name+"正在运行");//重写run方法。。
     }
 }
 
