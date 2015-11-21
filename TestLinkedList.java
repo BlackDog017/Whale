@@ -30,7 +30,7 @@ public class TestLinkedList {
         ListIterator<String> aIter=a.listIterator();
 
 
-        //b归并入a当中，间隔交叉的插入b中的元素
+       //b归并入a当中，间隔交叉的插入b中的元素
         while(bIter.hasNext())
         {
             if(aIter.hasNext())
