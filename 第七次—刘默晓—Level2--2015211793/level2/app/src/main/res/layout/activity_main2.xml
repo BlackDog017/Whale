@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.blackdog.himemo.MainActivity"
+    android:background="@drawable/background"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="#4eaf52"
+        android:textSize="30dp" />
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardview"
+        android:layout_marginTop="120dp"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@id/cardview">
+
+
+            <EditText
+                android:textSize="10pt"
+                android:textColor="#4eaf52"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/accountEdit"
+                android:singleLine="false"
+                android:backgroundTint="#4eaf52" />
+
+            <EditText
+                android:hint="密码"
+                android:layout_width="300dp"
+                android:textSize="10pt"
+                android:layout_height="wrap_content"
+                android:id="@+id/passwordEdit"
+                android:layout_marginTop="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="密码"
+                android:textColor="#929292"
+                android:backgroundTint="#a19d9d" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称"
+                android:id="@+id/textView4"
+                android:textColor="#4eaf52"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/accountEdit"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:id="@+id/button2"
+                android:textColor="#4eaf52"
+                android:background="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/textView4"
+                android:layout_marginBottom="18dp" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>
